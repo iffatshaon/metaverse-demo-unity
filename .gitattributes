@@ -18,6 +18,7 @@
 *.skp filter=lfs diff=lfs merge=lfs -text
 *.stl filter=lfs diff=lfs merge=lfs -text
 *.ztl filter=lfs diff=lfs merge=lfs -text
+*.unity filter=lfs diff=lfs merge=lfs -text
 # Audio
 *.aif filter=lfs diff=lfs merge=lfs -text
 *.aiff filter=lfs diff=lfs merge=lfs -text
@@ -50,5 +51,6 @@
 *.mat linguist-generated
 *.meta linguist-generated
 *.prefab linguist-generated
-*.unity linguist-generated
+*.unity filter=lfs diff=lfs merge=lfs -text
 *.aar filter=lfs diff=lfs merge=lfs -text
+. filter=lfs diff=lfs merge=lfs -text
